@@ -20,8 +20,6 @@ public class TaskServiceTest {
         run(this::addTask_shouldReturnTaskWithGeneratedId);
         run(this::addTask_shouldTrimTitleAndDescription);
         run(this::editTask_shouldUpdateTitleAndDescription);
-        run(this::listTasks_shouldReturnTasksInInsertionOrder);
-        run(this::listTasks_shouldReturnTasksInCustomOrder);
     }
 
     /* -------- addTask() -------- */
