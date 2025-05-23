@@ -38,15 +38,6 @@ public class TaskServiceTest {
         // TODO
     }
 
-    /* -------- listTasks() -------- */
-    void listTasks_shouldReturnTasksInInsertionOrder() {
-        // TODO
-    }
-
-    void listTasks_shouldReturnTasksInCustomOrder() {
-        // TODO
-    }
-
     /* ----- tiny runner ----- */
     private void run(Runnable r) {
         try {
